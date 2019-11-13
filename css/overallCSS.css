@@ -1,0 +1,179 @@
+body{
+  background-color: #f1f1f1;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav a{
+  color: #f2f2f2;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  nav a {
+    float: none;
+    width: 100%;
+    padding: .5rem;
+    color: #d4af37;
+    background-color: #000000;
+  }
+}
+
+nav a:hover{
+  color: #ff0000;
+  background-color: #f2f2f2;
+}
+
+nav li{
+  display: inline;
+}
+
+h1{
+  text-align: center;
+  font-size: 48px;
+  padding: 15px;
+}
+
+h2{
+  font-size: 1.5rem;
+  padding: .5rem;
+  font-weight: bold;
+}
+
+h4{
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  padding-left: .5rem;
+}
+
+p{
+  font-size: 1rem;
+  padding:.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 2.5rem;
+    padding: .2rem;
+    color: #d4af37;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+}
+
+ul{
+  margin-left: 2em;
+  list-style-type: square;
+  padding-top: 2.5em;
+  padding-bottom: .5em;
+}
+
+#homebg {
+  background-image: url(../images/homebg.png);
+}
+
+.homeimg {
+  float: right;
+  padding-right: 1em;
+}
+
+.cyberimg{
+  padding-top: 1em;
+}
+
+.clear{
+  clear: both;
+}
+
+#nameinfo {
+  text-align: center;
+}
+
+.sections p{
+  padding-top: 0em;
+  padding-bottom: .5em;
+}
+
+.headder{
+  text-decoration: underline;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+
+
+.subheader{
+  padding-bottom: 0em;
+  padding-top: 0em;
+}
+
+#fixedpage {
+  width: 960px;
+  background-color: #f1f1f1;
+  margin: auto;
+}
+
+#cyberpage {
+  text-align: center;
+  background-image: url(../images/cyberbg.png);
+  font-family: 'Roboto Mono',Courier, monospace;
+  color: #f2f2f2;
+}
+
+iframe {
+  width: 560px; 
+  height: 315px;
+  border: 0;
+}
+
+#wrapper {
+  width: 50%;
+  height: 650px;
+  background-color: #c00;
+  margin: 0;
+  overflow: hidden;
+}
+
+#canvas {
+  width: 80%;
+  height: 500px;
+  background-color: #ccc;
+  margin: 50px auto;
+}
+
+#leftPos{
+  background-color: blue;
+  width: 25%;
+  height: 650px;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+#rightPos{
+  background-color: blue;
+  width: 25%;
+  height: 650px;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.button{
+  background-color: #f1f100;
+  display: block;
+  width: 50%;
+  height: 33.3%;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 20px;
+}

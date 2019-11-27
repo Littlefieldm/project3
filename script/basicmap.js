@@ -118,8 +118,3 @@ function showSlides() {
 }
 
 window.addEventListener('load', init);
-
-//Bristol Renicance Faire 42.497938, -87.956880
-//Disapointment Island -50.607311, 165.971229
-// sudan 12.370367, 23.322272
-// state boarder 42.658056, -87.043121

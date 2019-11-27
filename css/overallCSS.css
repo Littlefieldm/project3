@@ -79,6 +79,9 @@ ul{
 }
 
 #homebg {
+  width: 960px;
+  background-color: #f1f1f1;
+  margin: auto;
   background-image: url(../images/homebg.png);
 }
 
@@ -176,4 +179,38 @@ iframe {
   text-align: center;
   margin: 50px auto;
   border-radius: 20px;
+}
+
+.image-sliderfade {
+	display: none;
+}
+
+.slideshow {
+	text-align: center;
+	height: 250px;
+}
+
+.fade {
+	-webkit-animation-name: fade-image;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade-image;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade-image {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade-image {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
 }
